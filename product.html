@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETYSON | Áo Thun Trống Đồng</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .product-detail { display: flex; padding: 5%; gap: 50px; }
+        .product-gallery { flex: 1; }
+        .product-gallery img { width: 100%; }
+        .product-info { flex: 1; }
+        .product-info h1 { font-size: 2.5rem; text-transform: uppercase; margin-bottom: 10px;}
+        .price { font-size: 1.5rem; color: var(--burgundy); margin-bottom: 30px; }
+        .size-btn { padding: 10px 20px; border: 1px solid var(--black); background: transparent; cursor: pointer; margin-right: 10px; margin-bottom: 20px;}
+        .size-btn:hover { background: var(--black); color: var(--white); }
+    </style>
+</head>
+<body>
+<header>
+        <nav class="nav-left">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="custom.html">Custom</a>
+        </nav>
+        <div class="logo-center">
+            <a href="index.html"><img src="/6581d064-bc5e-40ae-8182-502bc7ef26fb.jpg" alt="DETYSON" class="logo-img"></a>
+        </div>
+        <nav class="nav-right">
+            <!-- Icon tìm kiếm chảy ngang mới -->
+            <div class="search-wrapper">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" class="search-input" placeholder="Bạn cần tìm gì?">
+            </div>
+            <a href="account.html">Account</a>
+            <a href="cart.html">Cart (0)</a>
+        </nav>
+    </header>
+    <div class="product-detail">
+        <div class="product-gallery">
+            <img src="/Thiết kế chưa có tên.png" alt="Áo Thun Trống Đồng">
+        </div>
+        <div class="product-info">
+            <h1>Áo Thun Chim Lạc</h1>
+            <div class="price">250,000 VND</div>
+            <p style="margin-bottom: 30px;">Thiết kế basic tối giản kết hợp cùng họa tiết mặt trống đồng Đông Sơn được in nổi bật sau lưng. Chất liệu 100% Cotton thoáng mát.</p>
+            
+            <h3 style="margin-bottom: 10px;">Kích thước:</h3>
+            <button class="size-btn">S</button>
+            <button class="size-btn">M</button>
+            <button class="size-btn">L</button>
+            <button class="size-btn">XL</button>
+            
+            <br><br>
+            <button class="btn btn-primary" style="width: 100%; max-width: 300px;">Thêm vào giỏ hàng</button>
+        </div>
+    </div>
+
+    <footer><p>&copy; 2026 DETYSON. Minimalist Vietnamese Fashion.</p></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
